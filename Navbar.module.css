@@ -1,0 +1,25 @@
+/* src/styles/Navbar.module.css */
+
+.navbarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .navbarLinks {
+    display: flex;
+    gap: 30px; /* Space between the links */
+  }
+  
+  .navLink {
+    color: #4caf50;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    color: #45a049; /* Darker green when hovered */
+  }
+  
